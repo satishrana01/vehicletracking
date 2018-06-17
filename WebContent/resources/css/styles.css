@@ -94,6 +94,18 @@
   -o-transition: color .2s ease;
   transition: color .2s ease;
 }
+#cssmenu ul li p {
+  padding: 14px 22px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  text-decoration: none;
+  color: #dddddd;
+  background: #49505a;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
 #cssmenu ul ul ul li a {
   padding-left: 32px;
 }
@@ -109,3 +121,6 @@
   top: 20px;
   background: #dddddd;
 }
+nav.top1.navbar.navbar-default.navbar-static-top {
+    background-color: rgb(6, 217, 149);
+    font-family: 'Roboto', sans-serif;
