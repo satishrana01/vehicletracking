@@ -5,6 +5,7 @@
    <li id="addUser"><a href='addUser'>Add User</a>
    <li id="viewUser"><a href='viewuser'>View Users</a></li>
    <li id="reports"><a href='#'>Reports</a></li>
+   <li id="settings"><a href='#'>Settings</a></li>
    <li id="logout"><a href='logout'>Logout</a></li>
   </ul>
 </div>

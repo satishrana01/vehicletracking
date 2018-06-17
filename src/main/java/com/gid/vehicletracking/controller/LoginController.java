@@ -29,4 +29,24 @@ public class LoginController {
 		return "login";
 
 	}
+	@RequestMapping(value = "/userhome", method = RequestMethod.GET)
+	public String userHomePage(ModelMap model) {
+
+		return "userhome";
+
+	}
+	@RequestMapping(value = "/vehicleinformation", method = RequestMethod.GET)
+	public String vehicleInformation(ModelMap model,HttpServletRequest request) {
+
+		request.getSession().invalidate();
+		return "vehicleinformation";
+
+	}
+	@RequestMapping(value = "/editvehicle", method = RequestMethod.GET)
+	public String editVehicleInformation(ModelMap model,HttpServletRequest request) {
+
+		request.getSession().invalidate();
+		return "editvehicle";
+
+	}
 }
