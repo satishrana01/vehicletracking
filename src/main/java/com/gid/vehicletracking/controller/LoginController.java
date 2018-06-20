@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class LoginController {
 
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String loginPage(ModelMap model) {
+
+		return "login";
+
+	}
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String homePage(ModelMap model) {
 
@@ -35,6 +41,13 @@ public class LoginController {
 		return "userhome";
 
 	}
+	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
+	public String addUser(ModelMap model) {
+
+		return "addUser";
+
+	}
+	
 	@RequestMapping(value = "/vehicleinformation", method = RequestMethod.GET)
 	public String vehicleInformation(ModelMap model,HttpServletRequest request) {
 

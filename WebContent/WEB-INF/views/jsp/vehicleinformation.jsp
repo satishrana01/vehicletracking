@@ -23,7 +23,7 @@
    </script>	
 <div class="userlist">
 	<div class="container">
-<form class="form-inline" action="/action_page.php">
+<form autocomplete="false" class="form-inline" action="/action_page.php">
   <div class="form-group">
     <label for="email">Registration No:</label>
     <input placeholder="DL" required size="2" maxlength="2" type="text" class="form-control" id="email">
